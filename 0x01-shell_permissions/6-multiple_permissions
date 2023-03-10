@@ -1,0 +1,4 @@
+chmod +x hello
+chmod ug+x hello
+
+chmod o+r hello

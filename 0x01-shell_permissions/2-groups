@@ -1,0 +1,8 @@
+#!/bin/bash
+
+USER_NAME=$(whoami)
+
+GROUP_LIST=$(groups $USER_NAME)
+
+echo "Groups for user $USER_NAME:"
+echo $GROUP_LIST
